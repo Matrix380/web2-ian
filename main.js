@@ -1,5 +1,11 @@
-/*variável*/
-var a = 5
+var num1 = 2
+var num2 = 98
 
-/*mostra a variavel no console*/
-console.log(a)
+
+
+function junção(a,b){
+    let c = a+b
+    return (c)
+}
+
+console.log(junção(num1,num2))
