@@ -1,11 +1,13 @@
-var num1 = 2
-var num2 = 98
+const formulario = document.getElementById("calcForm")
 
+formulario.addEventListener("submit", function(e){
+    e.preventDefault();/*impede que a página seja recarregada*/ 
 
+    const a = Number(document.getElementById("numero1").value)
+    const b = Number(document.getElementById("numero2").value)
+    const c = Number(document.getElementById("numero3").value)
 
-function junção(a,b){
-    let c = a+b
-    return (c)
-}
+    const result = a+b+c
 
-console.log(junção(num1,num2))
+    document.getElementById("resultado").textContent = result
+})
