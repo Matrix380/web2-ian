@@ -2,4 +2,4 @@
 
 Git necessário
 
-Por enquanto só é possivel ver no console
+Se necessario um valor a menos  coloque 0 
